@@ -31,6 +31,6 @@ print(f"Device tensor is stored on: {tensor.device}")
 
 2.NVidia CUDA Toolkit的路徑設在環境變數Path中，並不會影響PyTorch。
 
-3.筆者先使用 conda 安裝PyTorch CPU 版本，再移除，改安裝 CUDA 版本，安裝沒問題，但以上述程式碼驗證，卻一直偵測不到 GPU，最後 * 改用pip才成功 * 。
+3.筆者先使用 conda 安裝PyTorch CPU 版本，再移除，改安裝 CUDA 版本，安裝沒問題，但以上述程式碼驗證，卻一直偵測不到 GPU，最後 *改用pip才成功* 。
 
 資料來源:https://ithelp.ithome.com.tw/articles/10282119
